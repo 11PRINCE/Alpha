@@ -60,7 +60,7 @@ namespace Recorder
         private void OnDestroy()
         {
 #if UNITY_ANDROID && !UNITY_EDITOR
-    androidRecorder.Call("cleanUpRecorder");
+    androidRecorder.Call("cleanUpRecorder"); //howareyou
 #endif
         }
         #region Android Recorder
